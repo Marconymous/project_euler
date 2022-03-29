@@ -87,6 +87,8 @@ fabric.properties
 
 .idea/*
 
+null/
+
 !.idea/codeStyles
 !.idea/runConfigurations
 
@@ -112,3 +114,9 @@ project/plugins/project/
 hs_err_pid*
 
 # End of https://www.toptal.com/developers/gitignore/api/intellij+all,scala,sbt
+
+.bsp/sbt.json
+
+.idea/codeStyles/codeStyleConfig.xml
+
+.idea/codeStyles/Project.xml
