@@ -1,4 +1,5 @@
 package dev.marconymous
+package problems
 
 object Problem6 {
   def main(args: Array[String]): Unit = {

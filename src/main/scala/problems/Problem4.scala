@@ -1,4 +1,5 @@
 package dev.marconymous
+package problems
 
 object Problem4 {
   def isPalindrome(n: Int): Boolean = {

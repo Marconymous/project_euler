@@ -1,4 +1,5 @@
 package dev.marconymous
+package problems
 
 import scala.annotation.tailrec
 

@@ -1,6 +1,7 @@
 package dev.marconymous
+package utils
 
-object Problem7 {
+object Primes {
   def isPrime(a: Int): Boolean = {
     if (a == 1) false
     else if (a == 2) true
@@ -9,14 +10,5 @@ object Problem7 {
       val limit = Math.sqrt(a).toInt
       (3 to limit by 2).forall(a % _ != 0)
     }
-  }
-
-  def nthPrime(value: Int): Int = {
-    val primes = Stream.from(2).filter(isPrime)
-    primes.drop(value - 1).head
-  }
-
-  def main(args: Array[String]): Unit = {
-    println(nthPrime(10001))
   }
 }
