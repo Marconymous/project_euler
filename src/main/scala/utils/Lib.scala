@@ -13,8 +13,7 @@ object Lib {
   }
 
   def factorial(a: Int): BigInt = {
-    if (a == 0) BigInt(1)
-    else BigInt(a) * factorial(a - 1)
+    (1 to a).product
   }
 
   def binominal(n: Int, k: Int): BigInt =
