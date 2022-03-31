@@ -2,7 +2,7 @@ package dev.marconymous
 package utils
 
 object Lib {
-  def isPrime(a: Int): Boolean = {
+  def isPrime(a: Long): Boolean = {
     if (a == 1) false
     else if (a == 2) true
     else if (a % 2 == 0) false
@@ -37,5 +37,4 @@ object Lib {
     } yield j
     divisors.toList
   }
-
 }
