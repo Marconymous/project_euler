@@ -1,12 +1,12 @@
 package dev.marconymous
 package problems
 
-import utils.Primes
+import utils.Lib
 
 object Problem7 {
 
   def nthPrime(value: Int): Int = {
-    val primes = Stream.from(2).filter(Primes.isPrime)
+    val primes = Stream.from(2).filter(Lib.isPrime)
     primes.drop(value - 1).head
   }
 
